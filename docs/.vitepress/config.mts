@@ -46,7 +46,8 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      // { text: '关于作者', link: 'https://sugarat.top/aboutme.html' }
+      { text: '作品集', link: '/products/traveller' },
+      { text: '关于作者', link: '/about-me' }
     ],
     socialLinks: [
       {

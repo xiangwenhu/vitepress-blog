@@ -1,10 +1,10 @@
 ---
 description:  时光荏苒人易老，往事如烟梦已遐。 莫叹浮生多苦短，且将旅行趁年华。 
 title: 旅行者
-readingTime: false
+readingTime: true
 tag:
  - 作品
-recommend: 3
+recommend: 3 
 ---
 
 * [旅行者](https://github.com/xiangwenhu/traveler)    
@@ -13,3 +13,6 @@ recommend: 3
   * 演示：http://8.140.247.208/    
   * 动画效果:          
    ![](./assets/images/travel.gif)
+  
+
+你说呢
