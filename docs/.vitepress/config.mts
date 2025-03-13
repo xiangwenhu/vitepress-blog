@@ -6,16 +6,17 @@ import { blogTheme } from './blog-theme'
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
 // 如果项目名已经为 name.github.io 域名，则不需要修改！
-// const base = process.env.GITHUB_ACTIONS === 'true'
-//   ? '/vitepress-blog-sugar-template/'
-//   : '/'
+const base = process.env.GITHUB_ACTIONS === 'true'
+  ? '/vitepress-blog/'
+  : '/'
 
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
+  appearance: "dark",
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
-  // base,
+  base,
   lang: 'zh-cn',
   title: '淡蓝的云',
   // description: '粥里有勺糖的博客主题，基于 vitepress 实现',
@@ -46,7 +47,7 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '作品集', link: '/products/traveller' },
+      { text: '作品集', link: '/products/index' },
       { text: '关于作者', link: '/about-me' }
     ],
     socialLinks: [
