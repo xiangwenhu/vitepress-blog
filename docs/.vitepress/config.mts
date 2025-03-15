@@ -47,7 +47,7 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '作品集', link: '/products/index' },
+      { text: '作品集', link: '/?tag=作品' },
       { text: '关于作者', link: '/about-me' }
     ],
     socialLinks: [
