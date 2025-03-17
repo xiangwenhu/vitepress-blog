@@ -1,5 +1,7 @@
 ---
 title: 资源加载器
+description: 网络请求后的数据，如果indexedBD里面没有，就存入。反之，直接从indexedDB里面读取。通过ver字段，来识别缓存是否过期。
+
 readingTime: true
 tag:
  - 作品

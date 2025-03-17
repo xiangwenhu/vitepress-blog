@@ -13,6 +13,7 @@ const base = process.env.GITHUB_ACTIONS === 'true'
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
+
   appearance: "dark",
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
@@ -47,7 +48,7 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '作品集', link: '/?tag=作品' },
+      { text: '作品集', link: '/works' },
       { text: '关于作者', link: '/about-me' }
     ],
     socialLinks: [

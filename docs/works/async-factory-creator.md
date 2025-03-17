@@ -1,5 +1,6 @@
 ---
 title: 异步单例工厂
+description: 异步单例。适用于同步单例。
 readingTime: true
 tag:
  - 作品

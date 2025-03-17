@@ -1,5 +1,6 @@
 ---
 title: 多用途计时器
+description: 分离时钟，分离计时器逻辑，通过key来分组，同样的key具备同样的计时逻辑。通知增长计时，自定义时钟等。
 readingTime: true
 tag:
  - 作品

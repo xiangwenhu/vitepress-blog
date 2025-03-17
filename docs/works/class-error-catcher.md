@@ -1,5 +1,6 @@
 ---
 title: 基于装饰器的方法错误捕捉
+description: 基于最新的装饰器，捕获class的方法的异常。
 readingTime: true
 tag:
  - 作品

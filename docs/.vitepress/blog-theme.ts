@@ -99,6 +99,40 @@ const blogTheme = getThemeConfig({
         path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Senko_Normals/senko.model3.json'
       }
     ]
+  },
+  comment: {
+    repo: 'xiangwenhu/blog-comments',
+    repoId: 'R_kgDOOJuCNQ',
+    category: 'Genera',
+    categoryId: 'DIC_kwDOOJuCNc4CoHos',
+    inputPosition: 'top',
+  },
+  works: {
+    title: '个人项目/线上作品',
+    description: '记录开发的点点滴滴',
+    topTitle: '举些🌰',
+    list: [
+      {
+        title: '旅行者',
+        description: ' 时光荏苒人易老，往事如烟梦已遐。 莫叹浮生多苦短，且将旅行趁年华。 ',
+        time: {
+          start: '2024-01-01'
+        },
+        url: '/works/traveller.html',
+        cover: [
+          'https://github.com/xiangwenhu/summary/blob/main/assets/images/travel.gif?raw=true',
+          
+        ],
+        links: [
+          {
+            title: '体验地址',
+            url: 'http://8.140.247.208/'
+          }
+        ],
+        tags: ['高德地图', 'Vue'],
+      },
+
+    ]
   }
 })
 

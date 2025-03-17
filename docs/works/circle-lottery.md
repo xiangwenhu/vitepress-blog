@@ -1,5 +1,6 @@
 ---
 title: 转盘抽奖逻辑
+description: 适用指针转动或者转盘转动的转盘抽奖。不负责UI布局，仅仅负责转动效果控制。
 readingTime: true
 tag:
  - 作品

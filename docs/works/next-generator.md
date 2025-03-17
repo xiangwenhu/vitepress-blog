@@ -1,5 +1,6 @@
 ---
 title: nextGenerator
+description: 面向next编程思想，封装下一次的调用逻辑，比较经典的场景就是setTimeout,requestAnimationFrame。调用next即进入下一个周期。
 readingTime: true
 tag:
  - 作品

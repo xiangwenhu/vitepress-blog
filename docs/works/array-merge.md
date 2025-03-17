@@ -1,5 +1,6 @@
 ---
 title: 高效数组合并
+description: 不问属性路径深浅，顺序遍历，倒叙遍历都支持，高效合并数据方案。
 readingTime: true
 tag:
  - 作品
