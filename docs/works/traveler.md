@@ -39,7 +39,7 @@ recommend: 3
 
 
 ## 效果        
-![](https://github.com/xiangwenhu/summary/blob/main/assets/images/travel.gif?raw=true)
+![](https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel.gif)
   
 
 

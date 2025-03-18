@@ -147,4 +147,4 @@ DemoService.getIndex(
 更多示例参见： https://github.com/xiangwenhu/petal-service-test
 
 ##  存储结构图
-![](https://github.com/xiangwenhu/petal-service/blob/master/docs/petal-service-design-v2.png?raw=true)
+![](https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/petal-service-design-v2.png)

@@ -120,8 +120,16 @@ const blogTheme = getThemeConfig({
         },
         url: '/works/traveller.html',
         cover: [
-          'https://github.com/xiangwenhu/summary/blob/main/assets/images/travel.gif?raw=true',
-          
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel.gif',
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel-ali-ace.png',
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel-cut.png',
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel-list.png',
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel-map-5a.png',
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel-map-echarts.png',
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel-map-school.png',
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel-map.png',
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel-report.png'
+
         ],
         links: [
           {
@@ -129,9 +137,58 @@ const blogTheme = getThemeConfig({
             url: 'http://8.140.247.208/'
           }
         ],
-        tags: ['高德地图', 'Vue'],
+        tags: ['高德地图', 'Vue', 'echarts', '阿里云', 'drizzle-orm', 'mySql', 'express'],
       },
+      {
+        title: 'petal-service服务框架',
+        description: '基于装饰器的服务框架，开箱即用，支持扩展，服务编写利器，前后端均支持。额外提供统计，路径参数，最终参数获取等能力。',
+        time: {
+          start: '2024-01-01'
+        },
+        url: '/works/petal-service.html',
+        cover: [
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/petal-service-design-v2.png',
 
+        ],
+        links: [
+          {
+            title: '示例',
+            url: 'https://github.com/xiangwenhu/petal-service-test'
+          },
+          {
+            title: 'github',
+            url: 'https://github.com/xiangwenhu/petal-service'
+          },
+          {
+            title: 'npm',
+            url: 'https://www.npmjs.com/package/petal-service'
+          }
+        ],
+        tags: ['装饰器', 'Vue'],
+      },
+      {
+        title: '通用异步消息中心',
+        description: '异步通讯通用方案，异步回调转Promise通用方案。支持EventEmitter, MQTT, socket.io, iframe， webview等等场景。',
+        time: {
+          start: '2024-01-01'
+        },
+        url: '/works/async-messenger.html',
+        cover: [
+          'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-process.png',
+
+        ],
+        links: [
+          {
+            title: 'github',
+            url: 'https://github.com/xiangwenhu/asyncMessager'
+          },
+          {
+            title: 'npm',
+            url: 'https://www.npmjs.com/package/async-messenger-js'
+          }
+        ],
+        tags: ['装饰器', 'bridge'],
+      }
     ]
   }
 })

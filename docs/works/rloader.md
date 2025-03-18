@@ -29,7 +29,7 @@ service worker是条路, 这也是一条路。 多一条路，多一条选择。
 ### demo
 演示地址：<a href="https://xiangwenhu.github.io/rloader/" target="_blank">r-loader演示</a>     
 
-演示效果： ![](https://raw.githubusercontent.com/xiangwenhu/summary/main/assets/images/rloader.gif)
+演示效果： ![](https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/rloader.gif)
 
 ```js
 const resourcesInfo = [{

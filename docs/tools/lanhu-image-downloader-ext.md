@@ -14,5 +14,5 @@ recommend: 3
 从vscode里面通过url或者选择下载设计稿图片，节省人力。
 
 ## 效果
-![](https://github.com/xiangwenhu/lanhu-image-downloader-ext/blob/main/res/lanhu-image-downloader.gif?raw=true)
+![](https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/lanhu-image-downloader.gif)
 

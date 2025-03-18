@@ -22,3 +22,13 @@
     max-width: 100%;
     max-height: initial;
 }
+
+.VPPage {
+    .user-works-page .works {
+        flex: 1;
+    }
+
+    .user-works-page .works .work {
+        max-width: unset;
+    }
+}

@@ -21,7 +21,7 @@ npm install count-manger
 ## 效果和演示
 演示地址:   https://xiangwenhu.github.io/count-manager-demos/#/
 
-![](https://raw.githubusercontent.com/xiangwenhu/summary/refs/heads/main/countManager.gif)   
+![](https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/countManager.gif)   
 
 
 
@@ -34,7 +34,7 @@ npm install count-manger
    
    
 ## 结构图
-![](https://github.com/xiangwenhu/countdownManger/blob/main/assets/images/strcut.png?raw=true)
+![](https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/countdownManager-strcut.png)
 
 
 ## 示例

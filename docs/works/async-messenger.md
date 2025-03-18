@@ -29,7 +29,7 @@ npm install async-messenger-js
 ```
 
 ## 流程和原理图
-![流程和原理图](https://raw.githubusercontent.com/xiangwenhu/asyncMessenger/master/docs/images/process.png)
+![流程和原理图](https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-process.png)
 
 
 ## 源码结构说明

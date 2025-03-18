@@ -17,7 +17,7 @@ recommend: 3
 ## 演示
 演示地址：http://8.140.247.208:8081/clientCS/   
 演示效果：   
-![](https://raw.githubusercontent.com/xiangwenhu/summary/main/assets/images/sandcastle.gif)
+![](https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/sandcastle.gif)
 
 
 
