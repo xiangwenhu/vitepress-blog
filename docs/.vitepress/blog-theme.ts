@@ -118,7 +118,7 @@ const blogTheme = getThemeConfig({
         time: {
           start: '2024-01-01'
         },
-        url: '/works/traveller.html',
+        url: '/works/traveler.html',
         cover: [
           'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel.gif',
           'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/travel-ali-ace.png',

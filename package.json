@@ -4,6 +4,7 @@
   "private": true,
   "author": "淡蓝的云",
   "license": "MIT",
+
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",

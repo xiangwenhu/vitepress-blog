@@ -7,7 +7,7 @@ tag:
 recommend: 3 
 ---
 
-# [traveller](https://github.com/xiangwenhu/traveler)
+# [traveler](https://github.com/xiangwenhu/traveler)
 
 ## 描述
 时光荏苒人易老，往事如烟梦已遐。 莫叹浮生多苦短，且将旅行趁年华。  
