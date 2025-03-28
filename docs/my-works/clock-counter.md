@@ -15,7 +15,7 @@ recommend: 3
 
 ## 安装
 ```cmd
-npm install count-manger
+npm install clock-counter
 ```
 
 ## 效果和演示
