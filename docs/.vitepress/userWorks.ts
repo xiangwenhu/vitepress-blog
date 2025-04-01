@@ -35,7 +35,7 @@ const userWorks: Theme.UserWorks = {
 
 
             title: '通用基于时钟的计时管理',
-            description: '基于时钟，自带修正的计时，通过key来分组，同样的key具备同样的计时逻辑',
+            description: '基于固定周期时钟的计时工具，自带小周期修正，可以通过key来分组，同样的key具备同样的计算逻辑。多个计时共享一个时钟，提高复用，减少计时器。',
             time: {
                 start: '2025'
             },
@@ -65,7 +65,7 @@ const userWorks: Theme.UserWorks = {
         },
         {
             title: '旅行者',
-            description: ' 时光荏苒人易老，往事如烟梦已遐。 莫叹浮生多苦短，且将旅行趁年华。 ',
+            description: '时光荏苒人易老，往事如烟梦已遐。 莫叹浮生多苦短，且将旅行趁年华。 ',
             time: {
                 start: '2024'
             },
@@ -133,8 +133,10 @@ const userWorks: Theme.UserWorks = {
             url: '/my-works/async-messenger.html',
             cover: [
                 'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-process.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-demo.png',
                 'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-project.png',
-                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-feature.png'
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-feature.png',
+
 
             ],
             links: [
@@ -158,10 +160,12 @@ const userWorks: Theme.UserWorks = {
             url: '/my-works/cookie-manager.html',
             cover: [
                 'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/cookie-manager-s1.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/cookie-manage-s1-2.png',
                 'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/cookie-manager-s2.png',
                 'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/cookie-manager-s3.png',
                 'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/cookie-manager-s4.png',
-                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/cookie-manager-s5.png'
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/cookie-manager-s5.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/cookie-manager-s5-1.png'
             ],
             links: [
                 {
@@ -199,6 +203,104 @@ const userWorks: Theme.UserWorks = {
                 }
             ],
             tags: ['流程控制', 'Activity'],
+        },
+        {
+            title: 'evm 事件泄露检测',
+            description: '按需监听事件处理程序的添加和移除，并对重复添加进行预警，并统计你关心事件处理程序。',
+            time: {
+                start: '2021'
+            },
+            url: '/my-works/evm.html',
+            cover: [
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/evm-dom.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/evm-demo1.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/evm-events.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/evm-featrue.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/evm-code-dom.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/evm-code-eventemitter.png'
+
+            ],
+            links: [
+                {
+                    title: 'github',
+                    url: 'https://github.com/xiangwenhu/evm'
+                }
+            ],
+            tags: ['事件监听', '内存泄漏'],
+        },
+        {
+            title: 'r-loader 资源加载和缓存',
+            description: '网络请求后的数据，如果indexedBD里面没有，就存入。 反之，直接从indexedDB里面读取。 通过ver字段，来识别缓存是否过期。',
+            time: {
+                start: '2021'
+            },
+            url: '/my-works/rloader.html',
+            cover: [
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/r-loader.gif',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/r-loader-featrue.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/r-loader-code.png'
+
+            ],
+            links: [
+                {
+                    title: "r-loader演示",
+                    url: "https://xiangwenhu.github.io/rloader/"
+                },
+                {
+                    title: 'github',
+                    url: 'https://github.com/xiangwenhu/rloader'
+                }
+            ],
+            tags: ['资源加载', '资源缓存'],
+        },
+        {
+            title: 'merge-data-js 对象合并和数组按照key合并',
+            description: '支持对象合并：不问属性路径深浅，支持属性映射。支持数组合并：不问属性路径深浅，支持属性映射，支持顺序和倒序。',
+            time: {
+                start: '2021'
+            },
+            url: '/my-works/merge-data-js.html',
+            cover: [
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/merge-data-demo1.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/merge-data-demo-arr.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/merge-data-demo-arr-hoc.png'
+
+            ],
+            links: [
+                {
+                    title: "npm",
+                    url: "https://www.npmjs.com/package/merge-data-js"
+                },
+                {
+                    title: 'github',
+                    url: 'https://github.com/xiangwenhu/merge-data'
+                }
+            ],
+            tags: ['数组合并', '对象合并', "数组按照键合并"],
+        },
+        {
+            title: '前端文件系统',
+            description: '基于indexedDB和promise的浏览器文件系统。',
+            time: {
+                start: '2017'
+            },
+            url: '/my-works/filesystem.html',
+            cover: [
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/fs.gif?v=1',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/fs-code.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/fs-s2.jpg'
+            ],
+            links: [
+                {
+                    title: "在线演示",
+                    url: "https://xiangwenhu.github.io/FileSystem/demo/"
+                },
+                {
+                    title: 'github',
+                    url: 'https://github.com/xiangwenhu/FileSystem'
+                }
+            ],
+            tags: ['文件系统', '资源缓存'],
         }
     ]
 }

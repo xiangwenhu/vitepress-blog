@@ -49,7 +49,7 @@ npm install async-messenger-js
 
 
 ## 示例代码
-[示例代码源码地址](./demos)
+[示例代码源码地址](https://github.com/xiangwenhu/asyncMessager/demos)
 
 
 ### EventEmitter

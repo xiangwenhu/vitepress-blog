@@ -47,7 +47,7 @@ export default defineConfig({
     //   text: '去 GitHub 上编辑内容'
     // },
     nav: [
-      { text: '首页', link: '/' },
+      { text: '文章', link: '/' },
       { text: '作品集', link: '/works' },
       { text: '关于作者', link: '/about-me' }
     ],
