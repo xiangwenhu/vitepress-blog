@@ -254,7 +254,7 @@ const userWorks: Theme.UserWorks = {
             tags: ['资源加载', '资源缓存'],
         },
         {
-            title: 'merge-data-js 对象合并和数组按照key合并',
+            title: 'merge-data-js',
             description: '支持对象合并：不问属性路径深浅，支持属性映射。支持数组合并：不问属性路径深浅，支持属性映射，支持顺序和倒序。',
             time: {
                 start: '2021'
@@ -277,6 +277,33 @@ const userWorks: Theme.UserWorks = {
                 }
             ],
             tags: ['数组合并', '对象合并', "数组按照键合并"],
+        }
+        ,
+        {
+            title: 'next-generator-js',
+            description: '面向next编程, 封装下一次的调用逻辑，比较经典的场景就是setTimeout,requestAnimationFrame。调用next即进入下一个周期。',
+            time: {
+                start: '2021'
+            },
+            url: '/my-works/next-generator.html',
+            cover: [
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/nextGenerator-featrue.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/nextGenerator-method.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/nextGenerator-createTimeout.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/nextGenerator-createStepUp.png'
+
+            ],
+            links: [
+                {
+                    title: "npm",
+                    url: "https://www.npmjs.com/package/next-generator-js"
+                },
+                {
+                    title: 'github',
+                    url: 'https://github.com/xiangwenhu/nextGenerator'
+                }
+            ],
+            tags: ['面向next变成', 'setTimeout', "requestAnimationFrame", "递归"],
         },
         {
             title: '前端文件系统',
