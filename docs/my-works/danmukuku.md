@@ -29,7 +29,7 @@ recommend: 3
 
 ## 体验地址
 
-https://xiangwenhu.github.io/danmu/
+https://xiangwenhu.github.io/danmukuku/
 
 
 ## 在做
