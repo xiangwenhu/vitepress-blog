@@ -132,7 +132,7 @@ const userWorks: Theme.UserWorks = {
             },
             url: '/my-works/async-messenger.html',
             cover: [
-                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-process.png',
+                'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/async-message-api-process.png',
                 'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-demo.png',
                 'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-project.png',
                 'https://vblog-assets.oss-cn-beijing.aliyuncs.com/works/asyncMessenger-feature.png',
